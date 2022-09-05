@@ -1,11 +1,12 @@
 .booleaner-bg{
-  height:150px;
+  height:140px;
   background-color:rgb(78,160,255);
-  background-image: url('IMG/pattern.png');
+  background-image: url('../IMG/pattern.png');
+  background-position: center center;
 }
 
 #booleaner-logo{
-  height:70px;
+  height:56px;
   margin:40px 20px;
 }
 
@@ -45,4 +46,34 @@ th{
 }
 
 tr:nth-child(odd){
-  background-color: #B1E5F2}
+  background-color: #B1E5F2
+}
+
+footer{
+ margin-top: 30px;
+}
+
+#next-reading{
+  font-size:16px;
+  color:grey;
+  font-weight: bold;
+}
+
+.suggested{
+  width:200px;
+  height: 150px;
+  color:white;
+  padding: 20px;
+  border: 1px dotted black;
+  margin-top:10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.first-article{
+  background-image: url('../IMG/monitor.jpg');
+}
+
+.second-article{
+  background-image: url('../IMG/graph.jpg');
+}
