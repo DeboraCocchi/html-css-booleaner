@@ -1,5 +1,31 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+.booleaner-bg{
+  height:150px;
+  background-color:rgb(78,160,255);
+  background-image: url('IMG/pattern.png');
+}
+
+#booleaner-logo{
+  height:70px;
+  margin:40px 20px;
+}
+
+h1{
+  font-size:40px;
+}
+.author{
+  color:grey;
+  font-size:80%;
+}
+
+#author-name{
+  color:#41B6E9;
+  font-weight: bold;
+}
+
+.photo-description{
+  font-size:70%;
+}
+
+.highlight{
+  background-color: yellow;
 }
