@@ -11,6 +11,7 @@
 
 h1{
   font-size:40px;
+  margin-bottom:15px;
 }
 .author{
   color:grey;
@@ -29,3 +30,19 @@ h1{
 .highlight{
   background-color: yellow;
 }
+
+th{
+  background-color: #20A9E5;
+  color:white;
+}
+
+.firsts{
+  width:25%;
+}
+
+.last{
+  width:50%;
+}
+
+tr:nth-child(odd){
+  background-color: #B1E5F2}
